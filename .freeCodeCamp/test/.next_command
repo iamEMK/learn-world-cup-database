@@ -69,3 +69,9 @@ git remote add upstream https://github.com/freeCodeCamp/learn-world-cup-database
 git push origin
 git remote -v
 git remote set-url upstream https://github.com/freeCodeCamp/learn-world-cup-database.git
+git remote set-url upstream https://github.com/freeCodeCamp/learn-world-cup-database.git
+git remote -v
+git remote remove upstream
+git remote -v
+git remote remove upstream
+git remote -v
