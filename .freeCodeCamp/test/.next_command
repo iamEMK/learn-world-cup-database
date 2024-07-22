@@ -59,3 +59,4 @@ psql --username=freecodecamp --dbname=postgres
 chmod +x queries.sh
 ./insert_data.sh
 ./queries.sh
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
