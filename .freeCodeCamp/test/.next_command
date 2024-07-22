@@ -61,3 +61,9 @@ chmod +x queries.sh
 ./queries.sh
 pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
 git remote -v
+git remote set-head origin -a
+git remote add origin https://github.com/iamEMK/learn-world-cup-database.git
+git remote set-head origin -a
+git push
+git remote add upstream https://github.com/freeCodeCamp/learn-world-cup-database.git
+git push origin
